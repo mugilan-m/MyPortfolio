@@ -1,0 +1,2 @@
+# MyPortfolio
+Nextjs Portfolio project
