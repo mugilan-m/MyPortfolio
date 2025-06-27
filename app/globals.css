@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Basic styling for the body or surrounding container (optional) */
+body {
+  font-family: sans-serif; /* Or a similar clean font */
+  background: linear-gradient(to bottom right, #f0e6ff, #e0f7fa); /* Example background */
+  min-height: 80vh;
+  margin: 0;
+  padding: 10px; 
+}
+
+/* Styles for the main card container */
+.profile-card {
+  background-color: #fff; /* White background */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 100%; /* Take full width up to max-width */
+  max-width: 400px; /* Or whatever width looks good */
+  overflow: hidden; /* Ensures image corners are handled by border-radius */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* Styles for the profile image */
+.profile-image {
+  width: 100%; /* Image takes full width of container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; 
+}
+
+/* Styles for the content area below the image */
+.content-area {
+  padding: 20px; /* Padding around the text and buttons */
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between text block and buttons */
+}
+
+/* Styles for the name container (optional, just for structure) */
+.name-container {
+  margin-bottom: 10px; /* Space below the name */
+}
+
+/* Styles for the name background */
+.name-background {
+  background-color: #6a5acd; /* A shade of purple/blue */
+  color: #fff; /* White text */
+  padding: 5px 10px; /* Padding inside the background */
+  border-radius: 5px; /* Slightly rounded corners for the background */
+  font-size: 1.3em; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  display: inline-block; /* Allows padding and margin, wraps content */
+}
+
+/* Styles for the description text */
+.description {
+  font-size: 1em; /* Standard text size */
+  color: #333; /* Dark grey text color */
+  line-height: 1.5; /* Spacing between lines */
+  margin: 0; /* Remove default paragraph margin */
+}
+
+/* Styles for bold text within the description */
+.description strong {
+  font-weight: bold; /* Explicitly ensure bold */
+}
+
+/* Container for the buttons */
+.button-container {
+  display: flex; /* Arrange buttons side-by-side */
+  gap: 10px; /* Space between buttons */
+  margin-top: 10px; /* Space above buttons */
+}
+
+/* Base styles for both buttons */
+.button-container button {
+  padding: 10px 15px; /* Padding inside buttons */
+  border-radius: 8px; /* Rounded corners for buttons */
+  font-size: 1em;
+  cursor: pointer; /* Indicate it's clickable */
+  display: flex; /* Allows icon and text to be side-by-side */
+  align-items: center; /* Vertically align icon and text */
+  justify-content: center; /* Center content horizontally if needed */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transitions on hover */
+  flex-grow: 1; /* Allows buttons to grow and fill the space */
+}
+
+/* Styles for the "Book A call" button */
+.book-call-button {
+  background-color: #6a5acd; /* Matching the name background color */
+  color: #fff; /* White text */
+  border: 1px solid #6a5acd; /* Matching border */
+
+}
+
+.book-call-button:hover {
+  background-color: #5a4acb; /* Slightly darker on hover */
+  border-color: #5a4acb;
+}
+
+/* Styles for the "Copy Email" button */
+.copy-email-button {
+  background-color: #fff; /* White background */
+  color: #333; /* Dark text color */
+  border: 1px solid #ccc; /* Light grey border */
+}
+
+.copy-email-button:hover {
+  background-color: #f8f8f8; /* Slightly grey on hover */
+  border-color: #bbb; /* Slightly darker border on hover */
+}
+
+/* Styles for icons within buttons */
+.button-container button i {
+  margin-right: 8px; /* Space between icon and text */
+  font-size: 1.1em; /* Slightly larger icon */
+}
+
+@keyframes example {
+  from {
+    transform: translateY(0%);
+  }
+  to{
+    transform: translateY(-50%);
+  }
+  /* 0%   { top: 0px; }
+  100% {  top: -100px; } */
+}
+.animate-example {
+  animation: example 4s linear 1s infinite;
+  position: absolute;
+  left: 0;
+}
+.animate-paused {
+  animation-play-state: paused !important;
+}
