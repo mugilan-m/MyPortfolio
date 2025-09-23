@@ -19,8 +19,8 @@ function AnimatedDiv() {
                 <div
                   className="text-gray-600  flex flex-row items-center  text-[10px] justify-between "
                 >
-                  <td className=" text-gray-500">Jan 2023</td>
-                  <td >
+                  <div className=" text-gray-500">Jan 2023</div>
+                  <div >
                     <div className="flex flex-row items-center justify-center gap-5">
 
                       <Image
@@ -35,15 +35,15 @@ src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_logo_flat.sv
                       <p className=" text-gray-500">Software Engineer</p>
                      </div>
                     </div>
-                  </td>
+                  </div>
                 </div>
 
                 {/* end of div 1 */}
                     <div
                   className="text-gray-600  flex flex-row items-center  text-[10px] justify-between "
                 >
-                  <td className=" text-gray-500">Jan 2023</td>
-                  <td >
+                  <div className=" text-gray-500">Jan 2023</div>
+                  <div >
                     <div className="flex flex-row items-center justify-center gap-5">
 
                       <Image
@@ -59,14 +59,14 @@ src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_logo_flat.sv
                       <p className=" text-gray-500">Software Engineer</p>
                      </div>
                     </div>
-                  </td>
+                  </div>
                 </div>   
                 {/* end of div 2           */}
                                 <div
                   className="text-gray-600  flex flex-row items-center  text-[10px] justify-between "
                 >
-                  <td className=" text-gray-500">Jan 2023</td>
-                  <td className="ml-[10px]" >
+                  <div className=" text-gray-500">Jan 2023</div>
+                  <div className="ml-[10px]" >
                     <div className="flex flex-row items-center justify-center gap-5">
 
                       <Image
@@ -81,14 +81,14 @@ src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_logo_flat.sv
                       <p className=" text-gray-500">Software Engineer</p>
                      </div>
                     </div>
-                  </td>
+                  </div>
                 </div>
                 {/* end of div 3 */}
                                 <div
                   className="text-gray-600  flex flex-row items-center  text-[10px] justify-between "
                 >
-                  <td className=" text-gray-500">Jan 2023</td>
-                  <td >
+                  <div className=" text-gray-500">Jan 2023</div>
+                  <div >
                     <div className="flex flex-row items-center justify-center gap-5">
 
                       <Image
@@ -103,14 +103,14 @@ src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_logo_flat.sv
                       <p className=" text-gray-500">Software Engineer</p>
                      </div>
                     </div>
-                  </td>
+                  </div>
                 </div>
                 {/* end of div 4 */}
                                 <div
                   className="text-gray-600  flex flex-row items-center  text-[10px] justify-between "
                 >
-                  <td className=" text-gray-500">Jan 2023</td>
-                  <td >
+                  <div className=" text-gray-500">Jan 2023</div>
+                  <div >
                     <div className="flex flex-row items-center justify-center gap-5">
 
                       <Image
@@ -126,14 +126,14 @@ src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_logo_flat.sv
                       <p className=" text-gray-500">Software Engineer</p>
                      </div>
                     </div>
-                  </td>
+                  </div>
                 </div>
                 {/* end of div 5 */}
                                 <div
                   className="text-gray-600  flex flex-row items-center  text-[10px] justify-between "
                 >
-                  <td className=" text-gray-500">Jan 2023</td>
-                  <td >
+                  <div className=" text-gray-500">Jan 2023</div>
+                  <div >
                     <div className="flex flex-row items-center justify-center gap-5">
 
                       <Image
@@ -149,7 +149,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_logo_flat.sv
                       <p className=" text-gray-500">Software Engineer</p>
                      </div>
                     </div>
-                  </td>
+                  </div>
                 </div>
 
 </div>

@@ -2,6 +2,6 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/mmugila1/Desktop/Nextjs/portfolio/app/loading.tsx"],"sourcesContent":["import React from 'react'\n\nfunction loading() {\n  return (\n<div>\n  <h1 className=' flex text-5xl justify-center mt-[20%]'>Loading ...</h1>\n</div>\n  )\n}\n\nexport default loading"],"names":[],"mappings":";;;;;AAEA,SAAS;IACP,qBACF,8OAAC;kBACC,cAAA,8OAAC;YAAG,WAAU;sBAAyC;;;;;;;;;;;AAGzD;uCAEe"}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/mmugila1/Desktop/HOME/Nextjs/portfolio/app/loading.tsx"],"sourcesContent":["import React from 'react'\n\nfunction loading() {\n  return (\n<div>\n  <h1 className=' flex text-5xl justify-center mt-[20%]'>Loading ...</h1>\n</div>\n  )\n}\n\nexport default loading"],"names":[],"mappings":";;;;;AAEA,SAAS;IACP,qBACF,8OAAC;kBACC,cAAA,8OAAC;YAAG,WAAU;sBAAyC;;;;;;;;;;;AAGzD;uCAEe"}},
     {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
 }
