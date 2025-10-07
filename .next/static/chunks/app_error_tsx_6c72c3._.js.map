@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/mmugila1/Desktop/HOME/Nextjs/portfolio/app/error.tsx"],"sourcesContent":["\"use client\"\nimport React from 'react'\n\nfunction error() {\n  return (\n    <div>error \n\n    </div>\n  )\n}\n\nexport default error"],"names":[],"mappings":";;;;AAAA;;AAGA,SAAS;IACP,qBACE,6LAAC;kBAAI;;;;;;AAIT;uCAEe"}},
-    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
