@@ -1,15 +1,9 @@
-import HomePage from "./components/HomePage";
-import ProfileCard from "./components/ProfileCard";
+import HeroLanding from "./components/HeroLanding";
 
 export default function Home() {
   return (
-    <div className="flex flex-col lg:flex-row">
-      <aside className="w-full lg:w-1/4 lg:sticky lg:top-0">
-        <ProfileCard />
-      </aside>
-      <section className="w-full lg:w-3/4">
-        <HomePage />
-      </section>
+    <div className="-mt-[72px]">
+      <HeroLanding />
     </div>
   );
 }

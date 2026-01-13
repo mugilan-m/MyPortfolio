@@ -1,8 +1,12 @@
 import React from 'react'
+import HappyClients from '../components/HappyClients'
 
 function page() {
   return (
-    <div>About page</div>
+    <div>About page
+
+      <HappyClients/>
+    </div>
   )
 }
 

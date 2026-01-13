@@ -4,7 +4,7 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div className='flex flex-wrap gap-5 m-5 justify-center'>
+    <div className='flex flex-wrap gap-5 m-5 justify-center mt-10'>
 
 
 

@@ -6,7 +6,7 @@
 /* Basic styling for the body or surrounding container (optional) */
 body {
   font-family: sans-serif; /* Or a similar clean font */
-  background: linear-gradient(to bottom right, #f0e6ff, #e0f7fa); /* Example background */
+  background: white;
   min-height: 80vh;
   margin: 0;
   padding: 10px; 
