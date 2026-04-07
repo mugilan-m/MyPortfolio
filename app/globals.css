@@ -140,3 +140,35 @@ body {
 .animate-paused {
   animation-play-state: paused !important;
 }
+
+/* Marquee / infinite horizontal scroll for tech logos */
+.marquee {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  padding: 1rem 0;
+}
+
+.marquee__inner {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  width: max-content;
+  animation: marquee-left 20s linear infinite;
+}
+
+.marquee__inner:hover {
+  animation-play-state: paused;
+}
+
+.marquee__item {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes marquee-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
